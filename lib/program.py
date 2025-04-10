@@ -2,4 +2,5 @@
 # and returns the first five words and then a '...' if there are more 
 # than that.
 
-def make_snippet
+def make_snippet(string):
+    return string
