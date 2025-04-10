@@ -12,5 +12,5 @@ def test_return_one_word():
 def test_return_five_words():
     assert make_snippet('There are five words here') == 'There are five words here'
 
-
-
+def test_six_words_input():
+    assert make_snippet('There are six words here actually') == 'There are six words here...'
