@@ -13,7 +13,8 @@ def make_snippet(string):
             inc = inc+1
         firstpart = (string[0:pos-1])
         return firstpart + '...'
-    
+    else:
+        return string
 
 print(make_snippet('There are six words here actually'))
 
